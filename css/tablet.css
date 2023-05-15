@@ -155,5 +155,7 @@
     .div-header > h5{
         font-size: 11px;
     }
-    
+    a>i{
+        font-size: large !important;
+    }
  }

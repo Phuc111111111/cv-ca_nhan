@@ -193,6 +193,7 @@ li>span{
 }
 
 .container-1 > .job-item{
+    
     border: 1px solid grey;
     padding: 20px;
 }
@@ -266,6 +267,7 @@ h1  {
 
 .section-content{
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 .list-hobby{
     display: flex;
@@ -485,7 +487,8 @@ h1  {
     justify-content: center;
 }
 .list-icon-footer > li{
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     width: 100px;
     padding: 10px;
 }
@@ -599,4 +602,14 @@ li>p{
 .btn-1{
     border-radius: 40%;
     background-color: #2aa2c7;
+}
+
+.btn-viewmore{
+    align-items: end !important;
+    
+    justify-content: center;
+    display: flex;
+}
+.parent{
+    
 }
